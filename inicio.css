@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+.logoReal {
+  height: 60px;
+}
+.navbar {
+  height: 8%;
+}
+.navbar-opcoes {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  padding-right: 2%;
+}
+
+h2:hover {
+  color: orangered;
+}
+h2 {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+.carousel {
+  padding-top: 4%;
+}
+.titleProdutos {
+  padding-top: 2%;
+  text-align: center;
+  padding: 3%;
+}
+.cardProd2 {
+  display: flex;
+  justify-content: center;
+}
+.cardProd1 {
+  display: flex;
+  justify-content: center;
+}
+.entreContato {
+  padding: 1%;
+}
+.iconeRede {
+  width: 30px;
+}
+.redesSociais {
+  align-items: center;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

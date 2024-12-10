@@ -1,0 +1,40 @@
+.titleHistoria {
+    text-align: center;
+    padding: 2%;
+}
+.nossaHistoria {
+    padding: 2%;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+    "a b b b b"
+    "a b b b b"
+    "a c c c c"
+    "a c c c c"
+}
+.iconHist {
+    max-width: 100px;
+    max-height: 50px;
+    margin-bottom: 20px;
+}
+.pergunta01 {
+    padding: 4%;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(214, 214, 214);
+    grid-area: a;
+}
+.pergunta02 {
+    padding: 4%;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(214, 214, 214);
+    grid-area: b;
+}
+.pergunta03 {
+    padding: 4%;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(214, 214, 214);
+    grid-area: c;
+}
